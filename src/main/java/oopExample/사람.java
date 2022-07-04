@@ -13,7 +13,7 @@ public class 사람 {
         this.다음_사람 = 다음_사람;
     }
 
-    void 자기소개() {
-        System.out.println("저는 " + number + "번, " + name + ", " + age + "살 입니다.");
+    public String 자기소개() {
+        return "저는 " + number + "번, " + name + ", " + age + "살 입니다.";
     }
 }
